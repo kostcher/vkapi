@@ -1,0 +1,20 @@
+{
+  "name": "kostcher/vkapi",
+  "description": "Simple pack for vk api",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Konstantin Cherepanov",
+      "email": "k.s.cherepanov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VK\\": "src/"
+    }
+  },
+  "require": {
+    "nategood/httpful": "0.2.20"
+  }
+}
