@@ -3,7 +3,14 @@
 
 Пример использования:
 
-```VK\VKGroupsApi::send("get", "messages.send", $token, $params);```
+```$vk = new \VK\VKGroupsApi($token);```
+
+```
+$vk->request(
+  "messages.send",
+  $params
+);
+```
 
 $token - токен, полученный в настройках сообщества.
 $params - параметры запроса.
